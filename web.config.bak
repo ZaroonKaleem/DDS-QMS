@@ -1,0 +1,25 @@
+﻿<!-- <?xml version="1.0" encoding="utf-8"?> -->
+<!-- <configuration> -->
+  <!-- <location path="." inheritInChildApplications="false"> -->
+    <!-- <system.webServer> -->
+      <!-- <handlers> -->
+        <!-- <add name="aspNetCore" path="*" verb="*" modules="AspNetCoreModuleV2" resourceType="Unspecified" /> -->
+      <!-- </handlers> -->
+      <!-- <aspNetCore processPath="dotnet" arguments=".\QuotationManagement.dll" stdoutLogEnabled="false" stdoutLogFile=".\logs\stdout" hostingModel="inprocess" /> -->
+    <!-- </system.webServer> -->
+  <!-- </location> -->
+<!-- </configuration> -->
+<!-- <!--ProjectGuid: 06d83072-dab3-4e2e-857d-b0e627cfcdd9--> 
+
+<?xml version="1.0" encoding="utf-8"?> 
+<configuration> 
+  <location path="." inheritInChildApplications="false"> 
+  <system.webServer> 
+  <handlers> 
+  <add name="aspNetCore" path="*" verb="*" modules="AspNetCoreModuleV2" resourceType="Unspecified" /> 
+  </handlers> 
+  <aspNetCore processPath="dotnet" arguments=".\QuotationManagement.dll" stdoutLogEnabled="false" stdoutLogFile=".\logs\stdout" hostingModel="inprocess" /> 
+  </system.webServer> 
+  </location> 
+</configuration> 
+<!-- <!--ProjectGuid: 06d83072-dab3-4e2e-857d-b0e627cfcdd9
